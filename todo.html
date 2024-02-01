@@ -1,0 +1,36 @@
+<html>
+    <head>
+       <link rel ="stylesheet" href="todo.css">
+       <script src="todo.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            
+            <input type="text" id="titleInput" placeholder="Title" >
+            <input type="date" id="dateInput"><br>
+
+            <input type="text" id="DescriptionInput" placeholder="Description">
+
+            <button onclick="addTask()">Save
+            </button>
+            <ul id="taskList"></ul>
+            
+        </div>
+        <div class="days">
+            <button onclick="daysOfWeek()" id="1"  value="sun">Sun</button>
+            <button onclick="daysOfWeek()" id="2" value="mon">Mon</button>
+            <button onclick="daysOfWeek()" id="3" value="tue">Tue</button>
+            <button onclick="daysOfWeek()" id="4" value="wed">Wed</button>
+            <button onclick="daysOfWeek()" id="5" value="thu">Thu</button>
+            <button onclick="daysOfWeek()" id="6" value="fri">Fri</button>
+            <button onclick="daysOfWeek()" id="7" value="sat">Sat</button>
+        </div>
+       <div class="output">
+
+        <textarea id="titleInput"></textarea> <button onclick="deleteTask()" id="delete">Delete</button><br>
+        <textarea id="DescriptionInput"></textarea> <button onclick="deleteTask()" id="delete">Delete</button>
+       </div>
+       
+     
+    </body>
+</html>

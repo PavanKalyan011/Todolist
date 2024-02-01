@@ -1,0 +1,49 @@
+
+body{
+    font-family: Arial, sans-serif;
+}
+#titleInput{
+    width: 100px;
+    height: 40px;
+}
+#DescriptionInput{
+
+    width:200px;
+    height:40px;
+}
+.container{
+    max-width: 500px;
+    height: 200px;
+    margin: auto;
+    border-style:none;
+    background-color:silver;
+    padding: 1px;
+    box-sizing:content-box;
+
+}
+.days{
+    max-width: 500px;
+    margin: auto;
+    border-style: outset;
+    background-color:silver;
+    padding:0.5px;
+    
+}
+.output{
+    max-width: 500px;
+    height: 200px;
+    margin: auto;
+    border-width: 1pxs;
+    background-color:silver;
+    padding: 1px;
+
+
+}
+button{
+    padding: 8px 20px;
+    background-color: silver;
+    display:inline-table;
+    align-content: end;
+
+}
+
